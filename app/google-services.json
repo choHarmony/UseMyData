@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633378647589",
+    "project_id": "ictapp-9aa5d",
+    "storage_bucket": "ictapp-9aa5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633378647589:android:31b22e078d8920346359cc",
+        "android_client_info": {
+          "package_name": "com.hanium.ictapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633378647589-1h48iunmm4dumbpsak4btn3q0lbuod3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hanium.ictapp",
+            "certificate_hash": "85e73b35f64806c6b1e715457f40446ce2817f01"
+          }
+        },
+        {
+          "client_id": "633378647589-tfb10gkbticoi59qv9etq32v2d29ajms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkeBHyUpVOanJ9KBTCvNz161pkvH_gw-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633378647589-tfb10gkbticoi59qv9etq32v2d29ajms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

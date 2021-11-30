@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StayRestartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="내가 원하는대로!"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHashtag1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="#오션뷰"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnHashtag2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="#인스타 감성"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnHashtag3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="#야경 예쁜곳"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHashtag4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="#바닷가"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btnHashtag5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="@android:color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="#나와 비슷한 사람의 취향"
+                android:textColor="#808080"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHashtag6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/white"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="#이런 곳은 어때요?"
+            android:textColor="#808080"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="이번주 Hot!"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnHotStay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@android:color/white"
+                    android:fontFamily="@font/nanumsquareroundbold"
+                    android:text="인기 숙소 보러가기"
+                    android:textColor="#808080"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="원하는 날짜에!"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnSetDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/white"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="예약 날짜 선택하기"
+            android:textColor="#808080"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

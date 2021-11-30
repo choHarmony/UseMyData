@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EstateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="9"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textEstate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="내 집 마련 프로젝트"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="49dp"
+                tools:layout_editor_absoluteY="55dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ADD8E6"
+                android:background="@color/white"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="홈화면"
+                app:strokeColor="#101010" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="Step 1"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnEstateStep1"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="나의 자산 알아보기"
+                android:textColor="#808080"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="Step 2"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnEstateStep2"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="원하는 내 집 선택하기"
+                android:textColor="#808080"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="Step 3"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnEstateStep3"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="추천 내 집 보기"
+                android:textColor="#808080"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btnEstateInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:backgroundTint="#ADD8E6"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="부동산 실거래가 보러가기" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

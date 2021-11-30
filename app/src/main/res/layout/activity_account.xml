@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="계정 관리"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnNameChange"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="이름 변경"
+                android:textColor="#808080"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnPasswordChange"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="비밀번호 변경"
+                android:textColor="#808080"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnLinkedAccount"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="연동된 계정"
+                android:textColor="#808080"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnDeleteAccount"
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@android:color/transparent"
+                android:fontFamily="@font/nanumsquareroundbold"
+                android:text="계정 삭제"
+                android:textColor="#808080"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+[33mcommit 73b0d0e6db0253e0938a073411796de24786b969[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: kse <kseun11@hanmail.net>
+Date:   Wed Aug 11 18:58:57 2021 +0900
+
+    kse
+
+[33mcommit 34b15f69bb9076ecb879decabbd9c3a5f569aeed[m[33m ([m[1;31morigin/siheon[m[33m)[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sat Aug 7 12:19:35 2021 +0900
+
+    EDIT activity_stay
+
+[33mcommit d2376db8d3e4ce7a9eda7ed2e03320371beb3ea8[m
+Author: Hwasu <jws0183@naver.com>
+Date:   Fri Aug 6 20:50:48 2021 +0900
+
+    add signup, info activity
+
+[33mcommit e4a4bd7cf7fd9e37ff8703bb1449407bacc77621[m
+Author: Hwasu <jws0183@naver.com>
+Date:   Fri Aug 6 20:41:33 2021 +0900
+
+    add sign up, info activity
+
+[33mcommit 9b4f9df211fad6218de971c704276951c48706e7[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sun Jul 18 15:28:07 2021 +0900
+
+    MODIFY small changes
+
+[33mcommit a257336ed16501d4923087beab920278c1db4c88[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sat Jul 17 23:43:02 2021 +0900
+
+    MODIFY main intent
+
+[33mcommit 537ce99e49ab4e17d10ec3e761653db9f1a027e2[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sat Jul 17 22:43:02 2021 +0900
+
+    RESOLVE errors
+
+[33mcommit b10d8d55797fc9c0b255b29d31d64116693d778b[m
+Merge: 2fbef64 62d8057
+Author: Hwasu <jws0183@naver.com>
+Date:   Sat Jul 17 22:09:01 2021 +0900
+
+    commit again
+
+[33mcommit 2fbef64a5f91251fa6a3b2e0a40cfb3ef3765073[m
+Author: Hwasu <jws0183@naver.com>
+Date:   Sat Jul 17 21:19:18 2021 +0900
+
+    login info activity
+
+[33mcommit 62d805737d42acc7c3efb6975ae9f848fc825601[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sat Jul 17 17:06:39 2021 +0900
+
+    MODIFY activities
+
+[33mcommit 43d7151739226ebf33e35e747b89cb4caf8f7481[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Sat Jul 17 15:10:11 2021 +0900
+
+    MODIFY layout_weight
+
+[33mcommit ecf9e133f97a92e69bcb65eac8dca79a6a2969b2[m
+Author: siheon0411 <siheon0411@gmail.com>
+Date:   Sat Jul 17 13:37:13 2021 +0900
+
+    ADD InfoActivity
+
+[33mcommit a79eb25f166835175601c1f4870ef81ade7846f0[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Thu Jul 15 01:17:53 2021 +0900
+
+    ADD Login
+
+[33mcommit 71350adfffb9bc887c93424e02e3adc3c2631e43[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Thu Jul 15 00:04:09 2021 +0900
+
+    ADD four activities
+
+[33mcommit e53b73178633d2344d7052f6d16df64c8dcad14a[m
+Author: 김시헌 <siheon0411@gmail.com>
+Date:   Wed Jul 14 23:18:30 2021 +0900
+
+    siheon commit
+
+[33mcommit c887a831149c860e4f98e1672534390656f74016[m
+Author: Hwasu <jws0183@naver.com>
+Date:   Wed Jul 14 22:48:44 2021 +0900
+
+    initial commit

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckStayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/nanumsquareroundbold"
+            android:text="북마크 / 예약 확인"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_checkStay"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnViewStayInfo1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:backgroundTint="#00ff0000"-->
+<!--            android:drawableLeft="@drawable/ic_launcher_background"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/nanumsquareroundbold"-->
+<!--            android:gravity="left"-->
+<!--            android:text="숙소 이름\n숙소 위치\n>상세 정보 확인"-->
+<!--            android:textColor="#808080"-->
+<!--            android:textSize="25dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnViewStayInfo2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:backgroundTint="#00ff0000"-->
+<!--            android:drawableLeft="@drawable/ic_launcher_background"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/nanumsquareroundbold"-->
+<!--            android:gravity="left"-->
+<!--            android:text="숙소 이름\n숙소 위치\n>상세 정보 확인"-->
+<!--            android:textColor="#808080"-->
+<!--            android:textSize="25dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnViewStayInfo3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:backgroundTint="#00ff0000"-->
+<!--            android:drawableLeft="@drawable/ic_launcher_background"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:fontFamily="@font/nanumsquareroundbold"-->
+<!--            android:gravity="left"-->
+<!--            android:text="숙소 이름\n숙소 위치\n>상세 정보 확인"-->
+<!--            android:textColor="#808080"-->
+<!--            android:textSize="25dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
